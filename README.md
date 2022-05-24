@@ -96,5 +96,4 @@ Part of the code is adapted from open-source codebase and original implementatio
 
 - ModelGenisis: https://github.com/MrGiovanni/ModelsGenesis
 - CEAL: https://github.com/marc-gorriz/CEAL-Medical-Image-Segmentation
-- UNet: https://github.com/zhixuhao/unet
 - DSAL: https://github.com/jacobzhaoziyuan/DSAL
