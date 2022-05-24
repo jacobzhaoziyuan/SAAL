@@ -24,7 +24,9 @@ Contents
 
 Label scarcity has been a long-standing issue for biomedical image segmentation, due to high annotation costs and professional requirements. Recently, active learning (AL) strategies strive to reduce annotation costs by querying a small portion of data for annotation, receiving much traction in the field of medical imaging. However, most of the existing AL methods have to initialize models with some randomly selected samples followed by active selection based on various criteria, such as uncertainty and diversity. Such random-start initial- ization methods inevitably introduce under-value redundant samples and unnecessary annotation costs. For the purpose of addressing the issue, we propose a novel self-supervised assisted active learning framework in the cold-start setting, in which the segmentation model is first warmed up with self- supervised learning (SSL), and then SSL features are used for sample selection via latent feature clustering without accessing labels. We assess our proposed methodology on skin lesions segmentation task. Extensive experiments demonstrate that our approach is capable of achieving promising performance with substantial improvements over existing baselines.
 
-![avatar](./img/archi.png)
+<p align="center">
+<img src="https://github.com/jacobzhaoziyuan/SAAL/blob/main/assets/archi.png" width="700">
+</p>
 
 ## Dataset
 
