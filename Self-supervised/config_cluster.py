@@ -44,7 +44,7 @@ class models_genesis_config:
     
     # model pre-training
     verbose = 1
-    weights = os,path.join(model_path,'ISIC_Unsup.pt')
+    weights = os.path.join(model_path,'ISIC_Unsup.pt')
     batch_size = 1
     optimizer = "sgd"
     workers = 10
